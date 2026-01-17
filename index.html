@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Glossed by Tanvi 💅</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Shadows+Into+Light&family=Poppins:wght@400;700&display=swap');
+
+        body {
+            margin: 0;
+            padding: 0;
+            background: #ffe6f0;
+            font-family: 'Poppins', sans-serif;
+            color: #663366;
+            position: relative;
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+
+        /* Background emojis decorations */
+        .emoji-bg {
+            position: fixed;
+            font-size: 4rem;
+            opacity: 0.12;
+            user-select: none;
+            animation: float 10s linear infinite alternate;
+        }
+        .emoji-bg:nth-child(1) {
+            top: 5%;
+            left: 5%;
+            animation-delay: 0s;
+        }
+        .emoji-bg:nth-child(2) {
+            top: 20%;
+            right: 10%;
+            font-size: 3rem;
+            animation-delay: 3s;
+        }
+        .emoji-bg:nth-child(3) {
+            bottom: 15%;
+            left: 20%;
+            animation-delay: 5s;
+        }
+        .emoji-bg:nth-child(4) {
+            top: 40%;
+            right: 20%;
+            animation-delay: 7s;
+        }
+        .emoji-bg:nth-child(5) {
+            bottom: 5%;
+            right: 5%;
+            font-size: 3.5rem;
+            animation-delay: 2s;
+        }
+
+        @keyframes float {
+            0% { transform: translateY(0) translateX(0); }
+            100% { transform: translateY(-15px) translateX(15px); }
+        }
+
+        .container {
+            max-width: 480px;
+            background: #ffd9ec;
+            margin: 2rem auto;
+            padding: 2rem 1.5rem;
+            border-radius: 15px;
+            box-shadow: 0 8px 15px rgb(102 51 102 / 0.2);
+            text-align: center;
+            position: relative;
+            z-index: 10;
+        }
+
+        h1 {
+            font-family: 'Pacifico', cursive;
+            font-size: 2.8rem;
+            margin-bottom: 0.2rem;
+            color: #ff3399;
+        }
+
+        h2 {
+            font-family: 'Shadows Into Light', cursive;
+            color: #996699;
+            margin-top: 0;
+            font-weight: normal;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 1.5rem 0 2rem 0;
+            font-size: 1.25rem;
+            text-align: left;
+            border-top: 1px solid #ffcce7;
+            border-bottom: 1px solid #ffcce7;
+        }
+
+        ul li {
+            padding: 0.8rem 0;
+            border-bottom: 1px solid #ffb6d6;
+            display: flex;
+            justify-content: space-between;
+        }
+        ul li:last-child {
+            border-bottom: none;
+        }
+
+        .soft-glossy {
+            font-style: italic;
+            color: #cc6699;
+            margin: 1rem 0 2rem 0;
+            font-weight: 600;
+        }
+
+        .offer {
+            margin: 1.5rem 0;
+            background: #ffb6d6;
+            padding: 1rem;
+            border-radius: 12px;
+            color: #800040;
+            font-weight: 700;
+        }
+
+        .address {
+            font-size: 0.9rem;
+            color: #804060;
+            margin: 2rem 0 1rem 0;
+            font-style: italic;
+        }
+
+        .footer {
+            font-size: 1rem;
+            background: #ff99cc;
+            padding: 1rem 0.8rem;
+            border-radius: 15px;
+            color: white;
+            font-weight: 600;
+            box-shadow: 0 6px 10px rgb(153 51 102 / 0.3);
+        }
+
+        a.instagram-link {
+            display: inline-block;
+            margin-top: 0.5rem;
+            color: #e4405f;
+            font-weight: 700;
+            text-decoration: none;
+            font-size: 1.25rem;
+        }
+
+        a.instagram-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="emoji-bg" style="top:10%;">🎀</div>
+    <div class="emoji-bg" style="top:25%;right:10%;">🌸</div>
+    <div class="emoji-bg" style="bottom:10%;left:15%;">🌷</div>
+    <div class="emoji-bg" style="top:50%;right:20%;">🎀</div>
+    <div class="emoji-bg" style="bottom:5%;right:5%;">🌸</div>
+
+    <div class="container" role="main">
+        <h1>Glossed by Tanvi</h1>
+        <h2>pretty nails. pretty you.</h2>
+
+        <ul>
+            <li><span>Press ON's</span> <span>₹350</span></li>
+            <li><span>Temporary</span> <span>₹500</span></li>
+            <li><span>Dipping</span> <span>₹800</span></li>
+            <li><span>Gel</span> <span>₹1100</span></li>
+            <li><span>Acrylic</span> <span>₹1400</span></li>
+        </ul>
+
+        <p class="soft-glossy">soft • glossy • aesthetic</p>
+
+        <div class="offer">
+            For our loyal clients:<br />
+            get a <strong>FREE</strong> Powerpolish Press ON set at your <strong>4th visit</strong>
+        </div>
+
+        <p class="footer">
+            Amazing &amp; Exclusive Festive Offers<br />
+            Giveaways are waiting for you ✨
+        </p>
+
+        <p class="address">
+            📍 Punjab, Abohar, Nai Abadi<br />
+            near by Vikas Mandir School, Street No.12
+        </p>
+
+        <a class="instagram-link" href="https://www.instagram.com/glossed_by_tanvi?igsh=amkybjNzNWc1NjBr" target="_blank" rel="noopener" aria-label="Visit Glossed by Tanvi on Instagram">
+            Follow on Instagram 📷
+        </a>
+    </div>
+</body>
+</html>
